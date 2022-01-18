@@ -23,6 +23,7 @@ const StyledIconsWrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+
 `;
 const StyledIcon = styled.div`
 	width: 2.5rem;
@@ -34,6 +35,15 @@ const StyledIcon = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: .3s ease-in;
+
+	&:hover{
+		background-color: white;
+		transform: rotate(15deg);
+		transition: .2s ease-in;
+		width: 2.7rem;
+		height: 2.7rem;
+	}
 `;
 
 const Footer: React.FC = () => {

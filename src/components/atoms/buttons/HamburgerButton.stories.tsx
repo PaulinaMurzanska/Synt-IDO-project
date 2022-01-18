@@ -18,6 +18,8 @@ export const Hamburger = () => (
 			padding: '80px',
 		}}
 	>
-		<HamburgerButton storybookVisible />
+		<HamburgerButton storybookVisible
+		
+		/>
 	</div>
 );
